@@ -1,0 +1,20 @@
+.navbar a {
+  padding: 0px 10px;
+  color: black;
+  text-decoration: none;
+}
+.navbar .active {
+  color: rgb(206, 108, 236);
+}
+
+.footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer-text {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
