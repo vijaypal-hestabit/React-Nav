@@ -16,7 +16,7 @@ class App extends PureComponent {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/country/:country/:state" element={<Country />} />
-          <Route path="/*" element={<h1>Abe chal ...</h1>} />
+          <Route path="/*" element={<h1>404</h1>} />
         </Routes>
         <Footer />
       </BrowserRouter>
